@@ -1,0 +1,141 @@
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  width: 350px;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card input {
+  width: 70%;
+  padding: 0.6rem 1rem;
+  border: 2px solid #eee;
+  border-radius: 30px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.card {
+  background: white;
+  width: 420px; 
+  padding: 2.5rem; 
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+
+.card button:hover {
+  background-color: #4e8bd9;
+}
+
+.weather {
+  margin-top: 2rem;
+}
+
+.weather i {
+  font-size: 3rem;
+  color: #4e8bd9;
+}
+
+.temp {
+  font-size: 3rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.city {
+  font-size: 1.5rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.col i {
+  font-size: 1.5rem;
+  color: #66a6ff;
+}
+
+.col div p:first-child {
+  font-weight: bold;
+  color: #333;
+}
+
+.col div p:last-child {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.card button i {
+  font-size: 1.4rem; 
+}
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.search button {
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #66a6ff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search button:hover {
+    background-color: #4e8bd9;
+}
+
+.weather-icon i {
+    font-size: 5rem;
+    color: #ffcc00; 
+}
+
+
+.fa-cloud { color: #a0a0a0; }
+.fa-cloud-rain { color: #66a6ff; }
+.fa-bolt { color: #ffcc00; }
+.fa-snowflake { color: #b0e0e6; }
+.fa-smog { color: #d3d3d3; }
